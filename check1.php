@@ -1,0 +1,9 @@
+<?php
+session_start();
+if($_SESSION['username']=="found");
+else
+{
+	header("location:login_admin.php");
+    exit;
+}
+?>

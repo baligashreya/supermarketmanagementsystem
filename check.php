@@ -1,0 +1,9 @@
+<?php
+session_start();
+if($_SESSION['rusername']=="found");
+else
+{
+	header("location:sign_in.html");
+    exit;
+}
+?>
